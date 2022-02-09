@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 10px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo > img{
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.main-nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav > ul li{
+    padding: 0 20px;
+    font-size:larger;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.plugin{
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.plugin :first-child{
+    margin-right: 10px;
+}
+
+.col1 img{
+    height: 50vh;
+}
+
+.col2 img{
+    height: 50vh;
+}
+
+.col3 img{
+    height: 30vh;
+}
+
+.col4 img{
+    height: 50vh;
+}
+
+.col5 img{
+    height: 30vh;
+}
+
+.col6 img{
+    height: 25vh;
+}
+.firstpage{
+    display: flex;
+    width: 10%;
+    padding-left: 5%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+
+}
+.col1, .col2, .col3{
+    margin-right: 15px;
+}
+
+.col4, .col5, .col6{
+    margin-right: 15px;
+
+}
+
+.latest1{
+    width: 60px;
+    height: 20px;
+    background-color: orangered;
+    color: #fff;
+    margin-top: -390px;
+    text-align: center;
+    position: relative;
+}
+
+    
+    .trending1{
+        width: 70px;
+        height: 25px;
+        background-color: black;
+        color: #fff;
+        margin-top: -170px;
+        position: relative;
+        text-align: center;
+    }
+
+.hot1{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: #fff;
+    margin-top: -390px;
+    position: relative;
+    text-align: center;
+}
+
+.trending2{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: #fff;
+    margin-top: -170px;
+    position: relative;
+    text-align: center;
+}
+
+.latest2{
+    width: 60px;
+    height: 20px;
+    background-color: orangered;
+    color: #fff;
+    margin-top: -410px;
+    text-align: center;
+    position: relative;
+}
+
+.hot2{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: #fff;
+    margin-top: -460px;
+    position: relative;
+    text-align: center; 
+}
+
+
+.ads img{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    margin-top: -70px;
+    position: fixed;
+}
